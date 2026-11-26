@@ -4,9 +4,7 @@ The main changes in each version. A version is a tag and a [release](https://git
 
 [日本語](CHANGELOG.ja.md)
 
-## Unreleased
-
-<!-- When releasing, rename this heading to "<version> - <date>". -->
+## 0.1.0 - 2026-11-26
 
 ### Added
 
