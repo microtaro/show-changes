@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Show changes",
+      "description": "Numbered frames and a legend laid over the live page, to show a person what changed.",
+      "skills": ["show-changes"]
+    }
+  ]
+}

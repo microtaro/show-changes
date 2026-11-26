@@ -1,0 +1,6 @@
+interface:
+  display_name: "Show changes on screen"
+  default_prompt: "Use $show-changes to show me on the screen what you changed."
+
+policy:
+  allow_implicit_invocation: true

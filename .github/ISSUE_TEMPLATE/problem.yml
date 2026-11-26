@@ -1,0 +1,38 @@
+name: Something went wrong
+description: The marks did not show, showed in the wrong place, or the skill did something unexpected
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you asked the agent, what you expected, and what you saw. A screenshot helps.
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: The agent you use
+      options:
+        - Claude Code
+        - Codex
+        - Cursor
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: The browser tool
+      options:
+        - Chrome DevTools MCP
+        - Playwright MCP
+        - Claude in Chrome
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: marks
+    attributes:
+      label: The showMarks call and what it returned
+      description: The targets the agent passed and the found counts. Remove anything you would not want public.
+      render: js
